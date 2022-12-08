@@ -387,6 +387,89 @@ body {
 }
 
 @keyframes satellite {
-  0%   {transform: translate(-440px);}
-  100% {transform: translate(1400px);}
+  0% {
+    transform: translate(-440px);
+  }
+
+  100% {
+    transform: translate(1400px);
+  }
+}
+
+.res {
+  border: 2px solid #F9A43F;
+  border-radius: 0% 0% 100% 0%;
+  padding: 38px;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 100%;
+  bottom: 100%;
+  font-weight: 700;
+  font-size: 19px;
+  color: #F9A43F;
+}
+
+@media (max-width: 575px) {
+  .quadrado3 {
+    margin-top: -185px;
+  }
+
+  .quadrado8 {
+    margin-left: -250px;
+    margin-top: 77px;
+  }
+
+  .rotation1 {
+    margin-top: -90px;
+  }
+
+  .rotation2 {
+    margin-left: -200px;
+    margin-top: 30px;
+  }
+  
+  .rotation3 {
+    margin-left: -170px;
+    margin-top: 65px;
+  }
+
+  .rotation4 {
+    margin-left: -170px;
+    margin-top: -40px;
+  }
+
+  .rotation5 {
+    margin-left: -200px;
+    margin-top: 65px;
+  }
+
+
+  .spaceman {
+    margin-left: -180px;
+    margin-top: 95px;
+  }
+
+  .satellite {
+    position: fixed;
+    top: 70px;
+    left: 120px;
+    width: 250px;
+    height: 250px;
+    background: url(./img/satellite.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    animation: satellite 18s both infinite ease-in;
+  }
+  
+  @keyframes satellite {
+    0% {
+      transform: translate(-400px);
+    }
+  
+    100% {
+      transform: translate(575px);
+    }
+  }
 }
