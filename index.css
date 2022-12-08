@@ -1,0 +1,392 @@
+body {
+  background: url(./img/b.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.quadrado1 {
+  position: fixed;
+  top: 50px;
+  left: 80px;
+  width: 80px;
+  height: 80px;
+  background: url(./img/star.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation: crescendo 1.5s alternate infinite ease-in;
+}
+
+.quadrado2 {
+  position: fixed;
+  top: 50px;
+  left: 1150px;
+  width: 100px;
+  height: 100px;
+  background: url(./img/star.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation: crescendo 1.5s alternate infinite ease-in;
+}
+
+.quadrado3 {
+  position: fixed;
+  top: 550px;
+  left: 50px;
+  width: 80px;
+  height: 80px;
+  background: url(./img/star.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation: crescendo 1.5s alternate infinite ease-in;
+}
+
+.quadrado4 {
+  position: fixed;
+  top: 550px;
+  left: 650px;
+  width: 100px;
+  height: 100px;
+  background: url(./img/star.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation: crescendo 1.5s alternate infinite ease-in;
+}
+
+.quadrado5 {
+  position: fixed;
+  top: 490px;
+  left: 950px;
+  width: 80px;
+  height: 80px;
+  background: url(./img/star.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation: crescendo 1.5s alternate infinite ease-in;
+}
+
+.quadrado6 {
+  position: fixed;
+  top: 450px;
+  left: 350px;
+  width: 100px;
+  height: 100px;
+  background: url(./img/star.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation: crescendo 1.5s alternate infinite ease-in;
+}
+
+.quadrado7 {
+  position: fixed;
+  top: 400px;
+  left: 1250px;
+  width: 80px;
+  height: 80px;
+  background: url(./img/star.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation: crescendo 1.5s alternate infinite ease-in;
+}
+
+.quadrado8 {
+  position: fixed;
+  top: 60px;
+  left: 520px;
+  width: 100px;
+  height: 100px;
+  background: url(./img/star.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation: crescendo 1.5s alternate infinite ease-in;
+}
+
+@keyframes crescendo {
+  0% {
+    transform: scale(.8);
+  }
+
+  100% {
+    transform: scale(1.5);
+  }
+}
+
+.rotation1 {
+  position: fixed;
+  top: 200px;
+  left: -10px;
+  width: 250px;
+  height: 250px;
+  background: url(./img/sun.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation: rotation1 100s infinite linear;
+}
+
+@keyframes rotation1 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotation2 {
+  position: fixed;
+  top: 320px;
+  left: 235px;
+  width: 40px;
+  height: 40px;
+  background: url(./img/mercury.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation: rotation2 100s infinite linear;
+}
+
+@keyframes rotation2 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotation3 {
+  position: fixed;
+  top: 300px;
+  left: 300px;
+  width: 80px;
+  height: 80px;
+  background: url(./img/venus.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation: rotation3 100s infinite linear;
+}
+
+@keyframes rotation3 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotation4 {
+  position: fixed;
+  top: 285px;
+  left: 400px;
+  width: 115px;
+  height: 115px;
+  background: url(./img/earth.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation: rotation4 100s infinite linear;
+}
+
+@keyframes rotation4 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotation5 {
+  position: fixed;
+  top: 308px;
+  left: 535px;
+  width: 75px;
+  height: 75px;
+  background: url(./img/mars.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation: rotation5 100s infinite linear;
+}
+
+@keyframes rotation5 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotation6 {
+  position: fixed;
+  top: 230px;
+  left: 640px;
+  width: 210px;
+  height: 210px;
+  background: url(./img/jupiter.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation: rotation6 100s infinite linear;
+}
+
+@keyframes rotation6 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotation7 {
+  position: fixed;
+  top: 290px;
+  left: 800px;
+  width: 310px;
+  height: 310px;
+  background: url(./img/saturn.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation: rotation7 100s alternate infinite ease-in;
+}
+
+@keyframes rotation7 {
+  0% {
+    transform: rotateZ(20deg);
+  }
+
+  100% {
+    transform: rotateZ(21deg);
+  }
+}
+
+.rotation8 {
+  position: fixed;
+  top: 290px;
+  left: 1100px;
+  width: 120px;
+  height: 120px;
+  background: url(./img/uranus.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation: rotation8 50s infinite linear;
+}
+
+@keyframes rotation8 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotation9 {
+  position: fixed;
+  top: 299px;
+  left: 1260px;
+  width: 100px;
+  height: 100px;
+  background: url(./img/neptune.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation: rotation9 30s infinite linear;
+}
+
+@keyframes rotation9 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotation10 {
+  position: fixed;
+  top: 325px;
+  left: 1400px;
+  width: 40px;
+  height: 40px;
+  background: url(./img/pluto.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation: rotation10 30s infinite linear;
+}
+
+@keyframes rotation10 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spaceman {
+  position: fixed;
+  top: 540px;
+  left: 320px;
+  width: 150px;
+  height: 150px;
+  background: url(./img/spaceman2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation: spaceman 5000ms alternate-reverse infinite ease-in;
+}
+
+@keyframes spaceman {
+  0% {
+    transform: scale(2.8);
+  }
+
+  100% {
+    transform: scale(3.5);
+  }
+}
+
+.satellite {
+  position: fixed;
+  top: 10px;
+  left: 120px;
+  width: 350px;
+  height: 350px;
+  background: url(./img/satellite.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation: satellite 50s both infinite ease-in;
+}
+
+@keyframes satellite {
+  0%   {transform: translate(-440px);}
+  100% {transform: translate(1400px);}
+}
